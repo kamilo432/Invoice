@@ -1,0 +1,1 @@
+function e(e){return new Promise(((t,n)=>{e||t(!1);t(0===e.selectionStart&&e.selectionEnd===(e.value?e.value.length:0)&&document.activeElement===e)}))}function t(e){e&&document.activeElement===e&&e.select()}const n={loadModule:function(){},isInputValueHighlighted:e,highlightInputValue:t};export{n as default,t as highlightInputValue,e as isInputValueHighlighted};

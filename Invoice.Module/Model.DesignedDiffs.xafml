@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="Invoice">
+  <BOModel>
+    <Class Name="Invoice.Module.BusinessObjects.Invoice">
+      <OwnMembers>
+        <Member Name="Manager" PredefinedValues="Jan Kowalski; Grzegorz Kowalski" />
+        <Member Name="Segment" PredefinedValues="Home office; Site office" LookupEditorMode="Search" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="22.2.3.0" IsNewNode="True" />
+  </SchemaModules>
+</Application>

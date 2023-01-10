@@ -1,0 +1,1 @@
+import{D as e}from"./data-qa-utils-8be7c726.js";class t extends HTMLElement{connectedCallback(){e.setLoaded(this)}disconnectedCallback(){e.removeLoaded(this)}}customElements.define("dxbl-pager",t);const a={loadModule:function(){}};export{a as default};

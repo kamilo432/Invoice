@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\C# projekty\\Invoice\\Invoice.Blazor.Server\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\C# projekty\\Invoice\\Invoice.Blazor.Server\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\C# projekty\\Invoice\\Invoice.Blazor.Server\\wwwroot\\images\\Logo.svg",
+      "PackagePath": "staticwebassets\\images\\Logo.svg"
+    },
+    {
+      "Id": "D:\\C# projekty\\Invoice\\Invoice.Blazor.Server\\wwwroot\\images\\SplashScreen.svg",
+      "PackagePath": "staticwebassets\\images\\SplashScreen.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Invoice.Blazor.Server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Invoice.Blazor.Server.props",
+      "PackagePath": "build\\Invoice.Blazor.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Invoice.Blazor.Server.props",
+      "PackagePath": "buildMultiTargeting\\Invoice.Blazor.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Invoice.Blazor.Server.props",
+      "PackagePath": "buildTransitive\\Invoice.Blazor.Server.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

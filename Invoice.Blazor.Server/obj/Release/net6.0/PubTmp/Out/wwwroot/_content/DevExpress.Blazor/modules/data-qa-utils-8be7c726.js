@@ -1,0 +1,1 @@
+class t{static setLoaded(e){this.setAttribute(e,t.loaded)}static removeLoaded(e){this.removeAttribute(e,t.loaded)}static hasLoaded(e){return null!==e.getAttribute(t.prefix+t.loaded)}static setAttribute(e,a,d=null){e.setAttribute(t.prefix+a,null!=d?d:"")}static removeAttribute(e,a){e.removeAttribute(t.prefix+a)}}t.prefix="data-qa-dxbl-",t.loaded="loaded";export{t as D};

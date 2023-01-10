@@ -1,0 +1,1 @@
+class a{constructor(){this.action=null,this.rafHandle=null}execute(a){this.cancel(),this.action=a,this.rafHandle=requestAnimationFrame((()=>{var a;null===(a=this.action)||void 0===a||a.call(this),this.rafHandle=null,this.action=null}))}cancel(){this.rafHandle&&(cancelAnimationFrame(this.rafHandle),this.action=null,this.rafHandle=null)}}export{a as R};

@@ -1,0 +1,12 @@
+D:\C# projekty\Invoice\Invoice.Module\bin\Release\net6.0\Invoice.Module.deps.json
+D:\C# projekty\Invoice\Invoice.Module\bin\Release\net6.0\Invoice.Module.dll
+D:\C# projekty\Invoice\Invoice.Module\bin\Release\net6.0\Invoice.Module.pdb
+D:\C# projekty\Invoice\Invoice.Module\obj\Release\net6.0\Invoice.Module.csproj.AssemblyReference.cache
+D:\C# projekty\Invoice\Invoice.Module\obj\Release\net6.0\Invoice.Module.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# projekty\Invoice\Invoice.Module\obj\Release\net6.0\Invoice.Module.AssemblyInfoInputs.cache
+D:\C# projekty\Invoice\Invoice.Module\obj\Release\net6.0\Invoice.Module.AssemblyInfo.cs
+D:\C# projekty\Invoice\Invoice.Module\obj\Release\net6.0\Invoice.Module.csproj.CoreCompileInputs.cache
+D:\C# projekty\Invoice\Invoice.Module\obj\Release\net6.0\Invoice.Module.dll
+D:\C# projekty\Invoice\Invoice.Module\obj\Release\net6.0\refint\Invoice.Module.dll
+D:\C# projekty\Invoice\Invoice.Module\obj\Release\net6.0\Invoice.Module.pdb
+D:\C# projekty\Invoice\Invoice.Module\obj\Release\net6.0\ref\Invoice.Module.dll
