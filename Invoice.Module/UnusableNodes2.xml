@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel Id="BOModel">
+    <Class Name="Invoice.Module.BusinessObjects.Customer">
+      <OwnMembers Id="OwnMembers">
+        <Member Name="Company" DataSourceCriteria="" DataSourcePropertyIsNullMode="SelectAll" DataSourceProperty="Invoice.CustomerName" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+</Application>

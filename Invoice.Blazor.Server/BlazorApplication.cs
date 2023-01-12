@@ -9,7 +9,7 @@ namespace Invoice.Blazor.Server;
 
 public class InvoiceBlazorApplication : BlazorApplication {
     public InvoiceBlazorApplication() {
-        ApplicationName = "Invoice";
+        ApplicationName = "InvoiceData";
         CheckCompatibilityType = DevExpress.ExpressApp.CheckCompatibilityType.DatabaseSchema;
         DatabaseVersionMismatch += InvoiceBlazorApplication_DatabaseVersionMismatch;
     }

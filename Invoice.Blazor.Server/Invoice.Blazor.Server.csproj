@@ -19,6 +19,11 @@
   <ItemGroup>
     <PackageReference Include="DevExpress.ExpressApp.Blazor" Version="22.2.3" />
     <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="22.2.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Invoice.Module\Invoice.Module.csproj" />

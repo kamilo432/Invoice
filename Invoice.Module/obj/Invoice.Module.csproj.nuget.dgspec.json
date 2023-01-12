@@ -71,6 +71,10 @@
               "target": "Package",
               "version": "[22.2.3, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
             "Newtonsoft.Json.Bson": {
               "target": "Package",
               "version": "[1.0.2, )"

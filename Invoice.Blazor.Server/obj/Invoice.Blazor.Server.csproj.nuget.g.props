@@ -15,12 +15,14 @@
     <SourceRoot Include="D:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore.design\6.0.5\build\net6.0\Microsoft.EntityFrameworkCore.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore.design\6.0.5\build\net6.0\Microsoft.EntityFrameworkCore.Design.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.codeanalysis.analyzers\2.9.8\build\Microsoft.CodeAnalysis.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codeanalysis.analyzers\2.9.8\build\Microsoft.CodeAnalysis.Analyzers.props')" />
     <Import Project="D:\Program Files\DevExpress 22.2\Components\Offline Packages\devexpress.blazor.themes\22.2.3\buildTransitive\DevExpress.Blazor.Themes.props" Condition="Exists('D:\Program Files\DevExpress 22.2\Components\Offline Packages\devexpress.blazor.themes\22.2.3\buildTransitive\DevExpress.Blazor.Themes.props')" />
     <Import Project="D:\Program Files\DevExpress 22.2\Components\Offline Packages\devexpress.blazor\22.2.3\buildTransitive\net5.0\DevExpress.Blazor.props" Condition="Exists('D:\Program Files\DevExpress 22.2\Components\Offline Packages\devexpress.blazor\22.2.3\buildTransitive\net5.0\DevExpress.Blazor.props')" />
     <Import Project="D:\Program Files\DevExpress 22.2\Components\Offline Packages\devexpress.expressapp.blazor\22.2.3\buildTransitive\DevExpress.ExpressApp.Blazor.props" Condition="Exists('D:\Program Files\DevExpress 22.2\Components\Offline Packages\devexpress.expressapp.blazor\22.2.3\buildTransitive\DevExpress.ExpressApp.Blazor.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\Lord\.nuget\packages\microsoft.entityframeworkcore.tools\6.0.5</PkgMicrosoft_EntityFrameworkCore_Tools>
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\Lord\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.8</PkgMicrosoft_CodeAnalysis_Analyzers>
     <PkgDevExpress_Data Condition=" '$(PkgDevExpress_Data)' == '' ">D:\Program Files\DevExpress 22.2\Components\Offline Packages\devexpress.data\22.2.3</PkgDevExpress_Data>
     <PkgDevExpress_Xpo Condition=" '$(PkgDevExpress_Xpo)' == '' ">D:\Program Files\DevExpress 22.2\Components\Offline Packages\devexpress.xpo\22.2.3</PkgDevExpress_Xpo>

@@ -1,12 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application Title="Invoice">
+  <ActionDesign>
+    <ActionToContainerMapping>
+      <ActionContainer Id="PopupActions">
+        <ActionLink ActionId="ClearTaskAction" IsNewNode="True" />
+      </ActionContainer>
+    </ActionToContainerMapping>
+  </ActionDesign>
   <BOModel>
-    <Class Name="Invoice.Module.BusinessObjects.Invoice">
-      <OwnMembers>
-        <Member Name="Manager" PredefinedValues="Jan Kowalski; Grzegorz Kowalski" />
-        <Member Name="Segment" PredefinedValues="Home office; Site office" LookupEditorMode="Search" />
-      </OwnMembers>
-    </Class>
+    <Class Name="Invoice.Module.BusinessObjects.Customer" ObjectCaptionFormat="{0:InvoiceData}" ImageName="BO_Customer" />
+    <Class Name="Invoice.Module.BusinessObjects.Department" ImageName="BO_Department" />
+    <Class Name="Invoice.Module.BusinessObjects.InvoiceData" ImageName="BO_Invoice" />
+    <Class Name="Invoice.Module.BusinessObjects.Manager" ImageName="Business_Briefcase" />
   </BOModel>
   <SchemaModules>
     <SchemaModule Name="SystemModule" Version="22.2.3.0" IsNewNode="True" />

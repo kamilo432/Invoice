@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application>
   <BOModel Id="BOModel">
-    <Class Name="InvoiceData.Module.BusinessObjects.Invoice">
+    <Class Name="InvoiceData.Module.BusinessObjects.InvoiceData">
       <OwnMembers Id="OwnMembers">
         <Member Name="Manager" PredefinedValues="Jan Kowalski; Krzysztof Kowalski" />
         <Member Name="Segment" PredefinedValues="Home office; Site office" />
